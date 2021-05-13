@@ -7,10 +7,10 @@ const particleParams = {
             "value": "#979799",
         },
         "number": {
-            "value": 150
+            "value": 200
         },
         "size": {
-            "value": 3,
+            "value": 8,
             "random":{
                 "enable": true,
                 "minimumValue": 1,
@@ -21,7 +21,7 @@ const particleParams = {
             "color": "#000000",
             "enable": true
         },
-        "value":10
+        "value":5
     },
     "interactivity": {
         "events": {
@@ -37,7 +37,7 @@ const particleParams = {
                 "repulse":{
                     "distance": 20000,
                     "duration": 0.4,
-                    "speed": 1
+                    "speed": 0.2
                 }
             }
         }
@@ -47,7 +47,7 @@ const particleParams = {
 export default function Homepage(props){
     return(
         <div id='home-container'>
-            <Particles id='particle=layer' width='100%' height='100vh' params={particleParams}></Particles>
+            <Particles id='particle-layer' width='100vw' height='100vh' params={particleParams}></Particles>
             <div className='home-content no-interaction'>
                 <h1 className='home-title'>Brandon Lee Piercy</h1>
                 <div className='subtitle-container'>
