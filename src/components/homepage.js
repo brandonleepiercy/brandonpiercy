@@ -4,7 +4,7 @@ import Particles from 'react-particles-js';
 const particleParams = {
     "particles": {
         "color": {
-            "value": "#979799",
+            "value": "#ffffff",
         },
         "number": {
             "value": 200

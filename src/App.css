@@ -1,3 +1,7 @@
+:root {
+  --text-color: white;
+}
+
 .App, body, #root {
   position: relative;
   z-index: -1;
@@ -31,9 +35,16 @@
 
 .navbar-item {
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.4em;
   cursor: pointer;
   padding: 1em;
+  font-weight: 500;
+  color: var(--text-color); 
+}
+
+.navbar-item:hover {
+  color: #E52A6F;
+  transition: 0.5s;
 }
 
 /*Homepage Styles*/
@@ -47,7 +58,7 @@
   z-index: -1;
   position: fixed;
   background: rgb(20,20,30);
-  background: linear-gradient(126deg, rgba(20,20,30,1) 0%, rgb(65, 65, 107) 55%, rgb(88, 82, 158) 100%);
+  background: linear-gradient(126deg, #67aeca 20%, #675682 45%, #5f0f4e 90%);
   height: 100%;
 }
 
@@ -56,11 +67,28 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  top: 35%;
-  left: 10%;
+  align-items: center;
+  margin: 0 auto;
+  top: 40%;
+  color: var(--text-color);
 }
 
 .home-title {
-  font-size: 5em;
+  font-size: 8em;
+  margin: 0 auto;
   margin-bottom: 0.2em;
+}
+
+.subtitle-container {
+  overflow: hidden;
+  top: 100%;
+  position: absolute;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 1.6em;
+  padding: 0.3em 0.8em;
+  background-color: #E52A6F;
 }
