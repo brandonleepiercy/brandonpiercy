@@ -7,7 +7,7 @@ const particleParams = {
             "value": "#ffffff",
         },
         "number": {
-            "value": 200
+            "value": 195
         },
         "size": {
             "value": 8,

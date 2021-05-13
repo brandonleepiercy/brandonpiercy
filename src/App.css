@@ -92,3 +92,68 @@
   padding: 0.3em 0.8em;
   background-color: #E52A6F;
 }
+
+/* Media Queries */
+
+/* Smaller Desktop Screens */
+@media only screen and (max-width:1650px) {
+  .home-title {
+    font-size: 6em;
+  }
+
+  .subtitle {
+    font-size: 1.3em;
+  }
+}
+
+
+/* Small Laptops and Large Tablets */
+@media only screen and (max-width:1350px) {
+  .item-container {
+    width: 85vw;
+  }
+}
+
+/* Tablet */
+@media only screen and (max-width:1250px) {
+  .home-title {
+    font-size: 4.5em;
+  }
+
+  .subtitle {
+    font-size: 1em;
+  }
+}
+
+/* Small Tablet */
+@media only screen and (max-width:1000px) {
+  .item-container {
+    width: 97vw;
+  }
+
+  .home-title {
+    font-size: 3.5em;
+  }
+
+  .subtitle {
+    font-size: 0.8em;
+  }
+}
+
+/* Smaller Tablets */
+@media only screen and (max-width:800px) {
+  .navbar-item {
+    font-size: 1.1em;
+  }
+}
+
+/* Phones */
+@media only screen and (max-width:450px) {
+  .navbar-item {
+    font-size: 0.55em;
+  }
+
+  .home-content {
+    top: 30%;
+  }
+}
