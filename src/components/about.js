@@ -15,30 +15,15 @@ export default function About() {
                     </div>
                     <div id='about-body'>
                         <p id='body-description'>
-                            Baby, hit that backend Birk'
-                            Then pour a four of purp'
-                            We got his and hers
-                            Toolie in that Birkin
-                            Close the window curtains (Curtains)
-                            Right up in your skirt (Skirt)
-                            Take off, hit the curve (Curve)
-                            Toolie in that Birkin
-                            Baby, hit that backend Birk'
-                            Then pour a four of purp'
-                            We got his and hers
-                            Toolie in that Birkin
-                            Close the window curtains (Curtains)
-                            Right up in your skirt (Skirt)
-                            Take off, hit the curve (Curve)
-                            Toolie in that Birkin
-                            Baby, hit that backend Birk'
-                            Then pour a four of purp'
-                            We got his and hers
-                            Toolie in that Birkin
-                            Close the window curtains (Curtains)
-                            Right up in your skirt (Skirt)
-                            Take off, hit the curve (Curve)
-                            Toolie in that Birkin
+                            Hi, my name is Brandon. I'm a full-stack developer that's skilled with ES6 Javascript,
+                            React, SQL, Mongo, and much more. I graduated from UC Santa Barbara with a degree in
+                            Communication in September of 2020, and I completed the Full-Stack Web Development Bootcamp
+                            with UCLA Extension in February of 2021.
+                            <br/>
+                            <br/>
+                            I enjoy designing aesthetically pleasing front-ends, as well as constructing data models and APIs to 
+                            interact with the back-end. Engineering applications provides little problems that help keep my mind active on a daily basis.
+                            In my spare time I enjoy cooking, listening to music, taking my car to the track, working out, and researching speculative markets.
                         </p>
                         <div id='about-info'>
                             <div id='about-info-top-row'>
@@ -46,8 +31,6 @@ export default function About() {
                                     <div className='about-info-title'>Email:</div>
                                     <div className='about-info-content'>
                                         brandonpiercy@ucsb.edu
-                                        <br/>
-                                        b.piercy567@gmail.com
                                     </div>
                                 </div>
                                 <div className='about-info-item'>

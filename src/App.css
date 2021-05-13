@@ -109,7 +109,7 @@
 /* About Styles */
 
 #about-container {
-  background: #675682;
+  background: linear-gradient(126deg, #8d76b1 35%, #675682 60%);
 }
 
 #about-card-container {
@@ -126,6 +126,10 @@
 #about-body {
   width: 35vw;
   margin-left: 5vw;
+}
+
+#body-description {
+  font-size: 1.2em;
 }
 
 #picture {
@@ -152,6 +156,25 @@
 .about-info-title {
   color: #E52A6F;
   font-size: 1.5em;
+}
+
+.about-info-content {
+  margin-top: 1em;
+  font-size: 1.1em;
+}
+
+.about-social-icon {
+  cursor: pointer;
+  height: 5vh;
+  width: auto;
+  color: white;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.about-social-icon:hover {
+  color: #E52A6F;
+  transition: 0.5s;
 }
 
 /* Media Queries */
