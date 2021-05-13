@@ -11,7 +11,7 @@ export default function About() {
             <Reveal effect='fade-slide-up'>
                 <div id='about-card-container'>
                     <div id='picture-container'>
-                        <img id='picture' src={me}/>
+                        <img id='picture' src={me} alt='headshot'/>
                     </div>
                     <div id='about-body'>
                         <p id='body-description'>
@@ -41,17 +41,19 @@ export default function About() {
                             Toolie in that Birkin
                         </p>
                         <div id='about-info'>
-                            <div className='about-info-item'>
-                                <div className='about-info-title'>Email:</div>
-                                <div className='about-info-content'>
-                                    brandonpiercy@ucsb.edu
-                                    <br/>
-                                    b.piercy567@gmail.com
+                            <div id='about-info-top-row'>
+                                <div className='about-info-item'>
+                                    <div className='about-info-title'>Email:</div>
+                                    <div className='about-info-content'>
+                                        brandonpiercy@ucsb.edu
+                                        <br/>
+                                        b.piercy567@gmail.com
+                                    </div>
                                 </div>
-                            </div>
-                            <div className='about-info-item'>
-                                <div className='about-info-title'>Phone:</div>
-                                <div className='about-info-content'>+1 (805) 245-9451</div>
+                                <div className='about-info-item'>
+                                    <div className='about-info-title'>Phone:</div>
+                                    <div className='about-info-content'>+1 (805) 245-9451</div>
+                                </div>
                             </div>
                             <div className='about-social-row'>
                                 <div className='about-info-title'>Socials:</div>
