@@ -10,7 +10,7 @@ const particleParams = {
             "value": 195
         },
         "size": {
-            "value": 8,
+            "value": 2,
             "random":{
                 "enable": true,
                 "minimumValue": 1,
@@ -44,7 +44,7 @@ const particleParams = {
     }
 }
 
-export default function Homepage(props){
+export default function Homepage(){
     return(
         <div id='home-container'>
             <Particles id='particle-layer' width='100vw' height='100vh' params={particleParams}></Particles>

@@ -7,12 +7,25 @@
   z-index: -1;
 }
 
+.block {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
 .no-interaction {
   user-select: none; /* Non-prefixed version, currently*/
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.section-title {
+  font-size: 5em;
+  height: 20vh;
+  line-height: 20vh;
+  color: white;
 }
 
 /*NavBar Styles*/
@@ -91,6 +104,27 @@
   font-size: 1.6em;
   padding: 0.3em 0.8em;
   background-color: #E52A6F;
+}
+
+/* About Styles */
+
+#about-container {
+  background: #675682;
+}
+
+#about-card-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width:65vw;
+  justify-content: center;
+  padding: 7vh 0;
+}
+
+#picture {
+  height: 40vh;
+  width: auto;
+  border-radius: 5px;
 }
 
 /* Media Queries */
