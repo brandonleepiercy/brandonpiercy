@@ -47,7 +47,7 @@ const particleParams = {
 export default function Homepage(props){
     return(
         <div id='home-container'>
-            <Particles id='particle=layer' width='100vw' height='100vw' params={particleParams}></Particles>
+            <Particles id='particle=layer' width='100%' height='100vh' params={particleParams}></Particles>
             <div className='home-content no-interaction'>
                 <h1 className='home-title'>Brandon Lee Piercy</h1>
                 <div className='subtitle-container'>
