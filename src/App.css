@@ -130,6 +130,13 @@
 
 #body-description {
   font-size: 1.2em;
+  color: white;
+}
+
+#picture-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #picture {
@@ -146,10 +153,6 @@
 
 .about-info-item {
   margin: 3vw;
-  color: white;
-}
-
-#body-description {
   color: white;
 }
 
@@ -188,6 +191,10 @@
   .subtitle {
     font-size: 1.3em;
   }
+
+  #picture {
+    height: 30vh;
+  }
 }
 
 
@@ -207,6 +214,16 @@
   .subtitle {
     font-size: 1em;
   }
+
+  #picture {
+    height: 20vh;
+  }
+
+  .section-title {
+    font-size: 4em;
+    height: 15vh;
+    line-height: 20vh;
+  }
 }
 
 /* Small Tablet */
@@ -222,12 +239,53 @@
   .subtitle {
     font-size: 0.8em;
   }
+
+  #about-card-container {
+    width: 85vw;
+  }
+
+  #about-body {
+    width: 45vw;
+  }
 }
 
 /* Smaller Tablets */
 @media only screen and (max-width:800px) {
   .navbar-item {
     font-size: 1.1em;
+  }
+
+  .about-info-content {
+    font-size: 1em;
+  }
+
+  #picture {
+    width: 20vw;
+    height: auto;
+  }
+
+  #picture-container {
+    flex-direction: row;
+  }
+
+  #about-card-container {
+    flex-direction: column;
+  }
+
+  #about-body {
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 3em;
+    height: 15vh;
+    line-height: 20vh;
+  }
+
+  #body-description {
+    font-size: 1em;
+    color: white;
   }
 }
 
@@ -239,5 +297,24 @@
 
   .home-content {
     top: 30%;
+  }
+
+  .about-info-content {
+    font-size: 0.6em;
+  }
+
+  #body-description {
+    font-size: 0.7em;
+    color: white;
+  }
+
+  #about-card-container {
+    padding: 2vh 0;
+  }
+
+  .section-title {
+    font-size: 2em;
+    height: 10vh;
+    line-height: 15vh;
   }
 }
