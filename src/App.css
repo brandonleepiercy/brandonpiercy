@@ -26,6 +26,7 @@
   height: 20vh;
   line-height: 30vh;
   color: white;
+  margin-top: 0;
 }
 
 /*NavBar Styles*/
@@ -178,6 +179,26 @@
 .about-social-icon:hover {
   color: #E52A6F;
   transition: 0.5s;
+}
+
+/* Skills Styles */
+
+#skills-container {
+  background: linear-gradient(210deg, #df437c 35%, #db6f97 60%);
+}
+
+#skills-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.skill-icon {
+  height: 10%;
+  width: auto;
+  margin: 1vh;
 }
 
 /* Media Queries */
