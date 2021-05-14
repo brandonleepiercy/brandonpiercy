@@ -1,5 +1,7 @@
-import {FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaSass, FaBootstrap} from 'react-icons/fa';
+import {FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaSass, FaBootstrap, FaAws} from 'react-icons/fa';
 import {DiMysql, DiMongodb, DiJavascript1} from 'react-icons/di';
+import {GrHeroku} from 'react-icons/gr';
+import {SiAdobephotoshop, SiAdobepremiere} from 'react-icons/si';
 
 const skill_items = [
     {
@@ -11,7 +13,7 @@ const skill_items = [
         icon: DiMysql
     },
     {
-        name: 'MongoDB',
+        name: 'MONGODB',
         icon: DiMongodb
     },
     {
@@ -19,7 +21,7 @@ const skill_items = [
         icon: DiJavascript1
     },
     {
-        name: 'Node.js',
+        name: 'NODE.JS',
         icon: FaNodeJs
     },
     {
@@ -31,12 +33,28 @@ const skill_items = [
         icon: FaCss3Alt
     },
     {
-        name: 'Sass',
+        name: 'SASS',
         icon: FaSass
     },
     {
-        name: 'Bootstrap',
+        name: 'BOOTSTRAP',
         icon: FaBootstrap
+    },
+    {
+        name: 'AWS',
+        icon: FaAws
+    },
+    {
+        name: 'HEROKU',
+        icon: GrHeroku
+    },
+    {
+        name: 'PHOTOSHOP',
+        icon: SiAdobephotoshop
+    },
+    {
+        name: 'PREMIERE',
+        icon: SiAdobepremiere
     }
 ];
 
