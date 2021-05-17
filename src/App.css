@@ -372,9 +372,9 @@
   }
 
   .section-title {
-    font-size: 2em;
-    height: 10vh;
-    line-height: 15vh;
+    font-size: 1.5em;
+    height: 5vh;
+    line-height: 10vh;
   }
 
   #skills-group {
@@ -391,12 +391,6 @@
 
   #picture {
     height: 13vh;
-  }
-
-  .section-title {
-    font-size: 3em;
-    line-height: 15vh;
-    height: 10vh;
   }
 }
 
