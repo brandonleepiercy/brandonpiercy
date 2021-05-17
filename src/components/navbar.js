@@ -32,7 +32,7 @@ export default class NavBar extends React.Component {
                         <div className='navbar-item' onClick={this.handleClick}>HOME</div>
                         <div className='navbar-item' onClick={this.handleClick}>ABOUT</div>
                         <div className='navbar-item' onClick={this.handleClick}>SKILLS</div>
-                        <div className='navbar-item' onClick={this.handleClick}>PORTFOLIO</div>
+                        <div className='navbar-item' onClick={this.handleClick}>PROJECTS</div>
                         <div className='navbar-item' onClick={this.handleClick}>CONTACT</div>
                         <a href={resume} target="_blank" rel='noopener noreferrer' className='navbar-item'>RESUME</a>
                     </div>

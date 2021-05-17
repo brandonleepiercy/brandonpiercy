@@ -224,6 +224,43 @@
   transition: 0.5s;
 }
 
+/* Project Styles */
+#projects-group {
+  display: flex;
+  flex-direction: row;
+  width: 65vw;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.project-card {
+  height: 35vh;
+  width: 30vh;
+  margin: 0 3vh;
+  background-size: cover;
+}
+
+.project-card-body {
+  height: 100%;
+}
+
+.project-icon-row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.folder-icon-container{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.project-icon-container {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
 /* Media Queries */
 
 /* Smaller Desktop Screens */
