@@ -392,6 +392,12 @@
   #picture {
     height: 13vh;
   }
+
+  .section-title {
+    font-size: 3em;
+    line-height: 15vh;
+    height: 10vh;
+  }
 }
 
 /* Short screens */
