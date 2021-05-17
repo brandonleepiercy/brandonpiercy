@@ -43,12 +43,12 @@ export default function About() {
                                 <div className='about-info-content'>
                                     <a href={'https://github.com/brandonleepiercy'}
                                     target='_blank'
-                                    rel='noopnener noreferrer'>
+                                    rel='noopener noreferrer'>
                                         <AiFillGithub className='about-social-icon'/>
                                     </a>
                                     <a href={'https://www.linkedin.com/in/brandon-piercy-8713a1130/'}
                                     target='_blank'
-                                    rel='noopnener noreferrer'>
+                                    rel='noopener noreferrer'>
                                         <AiFillLinkedin className='about-social-icon' />
                                     </a>
                                 </div>
