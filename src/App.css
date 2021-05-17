@@ -380,7 +380,7 @@
   }
 
   #skills-group {
-    padding: 4vh 0;
+    padding: 2vh 0;
   }
 
   .skill-name {
@@ -389,6 +389,7 @@
 
   .skill-icon {
     height: 5vh;
+    margin: 1.8vh;
   }
 
   #picture {
@@ -399,11 +400,11 @@
 /* Short screens */
 @media only screen and (max-height: 800px) {
   #about-card-container {
-    width: 95vw;
+    width: 85vw;
   }
 
   #about-body {
-    width: 90vw;
+    width: 60vw;
   }
 
   #body-description {
