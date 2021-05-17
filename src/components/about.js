@@ -21,8 +21,8 @@ export default function About() {
                             with UCLA Extension in February of 2021.
                             <br/>
                             <br/>
-                            I enjoy designing aesthetically pleasing front-ends, as well as constructing data models and APIs to 
-                            interact with the back-end. Engineering applications provides little problems that help keep my mind active on a daily basis.
+                            I like the creativity involved with creating front end elements, as well as constructing data models and APIs to 
+                            efficiently interact with the back-end. Engineering applications provides little problems that help keep my mind active on a daily basis.
                             In my spare time I enjoy cooking, listening to music, taking my car to the track, working out, and researching speculative markets.
                         </p>
                         <div id='about-info'>

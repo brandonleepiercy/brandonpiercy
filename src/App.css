@@ -409,4 +409,10 @@
     font-size: 1.05em;
     margin: 2.5vh
   }
+
+  .section-title {
+    font-size: 4em;
+    line-height: 20vh;
+    height: 15vh;
+  }
 }
