@@ -390,3 +390,23 @@
     height: 5vh;
   }
 }
+
+/* Short screens */
+@media only screen and (max-height: 800px) {
+  #about-card-container {
+    width: 95vw;
+  }
+
+  #about-body {
+    width: 65vw;
+  }
+
+  #body-description {
+    font-size: 1em;
+  }
+
+  .skill-name {
+    font-size: 1.05em;
+    margin: 2.5vh
+  }
+}
