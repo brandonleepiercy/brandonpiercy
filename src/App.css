@@ -403,11 +403,14 @@
   }
 
   #about-body {
-    width: 65vw;
+    width: 90vw;
   }
 
   #body-description {
     font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2vh;
   }
 
   .skill-name {
