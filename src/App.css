@@ -359,13 +359,13 @@
   }
 
   .about-info-content {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
 
   #body-description {
     font-size: 0.6em;
     color: white;
-    width: 85vw;
+    width: 80vw;
   }
 
   #about-card-container {
