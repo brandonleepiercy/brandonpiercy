@@ -363,12 +363,14 @@
   }
 
   #body-description {
-    font-size: 0.7em;
+    font-size: 0.6em;
     color: white;
+    width: 85vw;
   }
 
   #about-card-container {
     padding: 2vh 0;
+    width: 90vw;
   }
 
   .section-title {
