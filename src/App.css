@@ -225,6 +225,10 @@
 }
 
 /* Project Styles */
+#projects-container {
+  background: linear-gradient(175deg, #53a5c5 40%, #1b8ebb 65%);
+}
+
 #projects-group {
   display: flex;
   flex-direction: row;
