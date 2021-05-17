@@ -312,8 +312,7 @@
   }
 
   #picture {
-    width: 20vw;
-    height: auto;
+    height: 15vh;
   }
 
   #picture-container {
@@ -388,6 +387,10 @@
 
   .skill-icon {
     height: 5vh;
+  }
+
+  #picture {
+    height: 13vh;
   }
 }
 
