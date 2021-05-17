@@ -366,11 +366,17 @@
     font-size: 0.6em;
     color: white;
     width: 80vw;
+    margin: 0 auto;
+    margin-top: 1vh;
   }
 
   #about-card-container {
     padding: 2vh 0;
     width: 90vw;
+  }
+
+  #about-body {
+    width: 85vw;
   }
 
   .section-title {
@@ -380,7 +386,7 @@
   }
 
   #skills-group {
-    padding: 2vh 0;
+    padding: 1vh 0;
   }
 
   .skill-name {
