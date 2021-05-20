@@ -241,17 +241,7 @@
   height: 35vh;
   width: 30vh;
   margin: 0 3vh;
-}
-
-.project-card .img {
-  object-fit: cover;
-}
-
-.project-card-overlay {
-  background: #53a5c5;
-  opacity: 70%;
-  height: 100%;
-  width: 100%;
+  border-radius: 20px;
 }
 
 .project-card-body {
@@ -265,11 +255,19 @@
 }
 
 .project-info-row {
-  margin: 30% 5%;
+  margin: 25% 5%;
 }
 
 .project-title {
   font-size: 2em;
+  color: white;
+  background-color: #1b8ebb;
+  width: auto;
+  border-radius: 10px;
+}
+
+.project-desc {
+  color: white;
 }
 
 .folder-icon-container{
@@ -282,6 +280,24 @@
   width: 50%;
   display: flex;
   justify-content: flex-end;
+}
+
+.project-icon-container a {
+  display: flex;
+  align-items: center;
+}
+
+.project-folder-icon {
+  height: 6vh;
+  width: auto;
+  color: #1b8ebb;
+  opacity: 100%;
+}
+
+.project-link-icon {
+  height: 5vh;
+  width: auto;
+  color: #e52a6f;
 }
 /* Media Queries */
 
