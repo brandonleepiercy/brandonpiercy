@@ -241,7 +241,17 @@
   height: 35vh;
   width: 30vh;
   margin: 0 3vh;
-  background-size: cover;
+}
+
+.project-card .img {
+  object-fit: cover;
+}
+
+.project-card-overlay {
+  background: #53a5c5;
+  opacity: 70%;
+  height: 100%;
+  width: 100%;
 }
 
 .project-card-body {
@@ -252,6 +262,14 @@
   display: flex;
   width: 100%;
   flex-direction: row;
+}
+
+.project-info-row {
+  margin: 30% 5%;
+}
+
+.project-title {
+  font-size: 2em;
 }
 
 .folder-icon-container{
